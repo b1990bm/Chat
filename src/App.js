@@ -11,8 +11,8 @@ const App = () => {
     <div>
       <AuthContextProvaider>
           <Switch>
-            <Route path="/" component={Login} />
             <Route path="/chats" component={Chats} />
+            <Route path="/" component={Login} />
           </Switch>
         </AuthContextProvaider>
     </div>
